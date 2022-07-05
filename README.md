@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# 使用react + Json-server 模仿todomc
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
