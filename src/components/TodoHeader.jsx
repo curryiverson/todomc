@@ -22,11 +22,12 @@ export default class TodoHeader extends Component {
         name: this.state.todoName,
         done: false,
       })
-      console.log('res',res);
+      // console.log('res',res);
       if(res.status == 201){
         this.setState({
           todoName: ''
         })
+        this.props.getTodoList()
       }
     }
   }
